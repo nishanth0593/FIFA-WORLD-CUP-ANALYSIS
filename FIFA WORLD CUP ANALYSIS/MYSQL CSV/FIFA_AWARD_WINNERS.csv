@@ -1,0 +1,142 @@
+TOURNAMENT_ID,TOURNAMENT_NAME,AWARD_NAME,SHARED,PLAYER_NAME,PLAYER_ID,team_name,TEAM_ID,team_code
+1930,1930 FIFA Men's World Cup,Golden Boot,0,Guillermo Stï¿½ï¿,P-50,Argentina,T-3,ARG
+1930,1930 FIFA Men's World Cup,Silver Boot,0,Pedro Cea,P-101,Uruguay,T-82,URY
+1930,1930 FIFA Men's World Cup,Bronze Boot,0,Bert Patenaude,P-11,United States,T-81,USA
+1934,1934 FIFA Men's World Cup,Golden Boot,0,Oldï¿½ï¿½ï¿½ï¿½,P-94,Czechoslovakia,T-20,CSK
+1934,1934 FIFA Men's World Cup,Silver Boot,1,Edmund Conen,P-25,Germany,T-29,DEU
+1934,1934 FIFA Men's World Cup,Silver Boot,1,Angelo Schiavio,P-6,Italy,T-40,ITA
+1938,1938 FIFA Men's World Cup,Golden Boot,0,Leï¿½ï¿½ï¿½ï¿½ï¿½,P-77,Brazil,T-9,BRA
+1938,1938 FIFA Men's World Cup,Silver Boot,1,Silvio Piola,P-114,Italy,T-40,ITA
+1938,1938 FIFA Men's World Cup,Silver Boot,1,Gyï¿½ï¿½ï¿½ï¿,P-52,Hungary,T-34,HUN
+1938,1938 FIFA Men's World Cup,Silver Boot,1,Gyula Zsengellï¿,P-53,Hungary,T-34,HUN
+1950,1950 FIFA Men's World Cup,Golden Boot,0,Ademir,P-1,Brazil,T-9,BRA
+1950,1950 FIFA Men's World Cup,Silver Boot,0,Oscar Mï¿½ï¿,P-98,Uruguay,T-82,URY
+1950,1950 FIFA Men's World Cup,Bronze Boot,1,Estanislau Basora,P-32,Spain,T-72,ESP
+1950,1950 FIFA Men's World Cup,Bronze Boot,1,Chico,P-15,Brazil,T-9,BRA
+1950,1950 FIFA Men's World Cup,Bronze Boot,1,Alcides Ghiggia,P-2,Uruguay,T-82,URY
+1950,1950 FIFA Men's World Cup,Bronze Boot,1,Telmo Zarra,P-115,Spain,T-72,ESP
+1954,1954 FIFA Men's World Cup,Golden Boot,0,Sï¿½ï¿½ï¿½ï¿½,P-113,Hungary,T-34,HUN
+1954,1954 FIFA Men's World Cup,Silver Boot,1,Josef Hï¿½,P-68,Switzerland,T-74,CHE
+1954,1954 FIFA Men's World Cup,Silver Boot,1,Max Morlock,P-88,West Germany,T-85,DEU
+1954,1954 FIFA Men's World Cup,Silver Boot,1,Erich Probst,P-30,Austria,T-5,AUT
+1958,1958 FIFA Men's World Cup,Golden Boot,0,Just Fontaine,P-70,France,T-28,FRA
+1958,1958 FIFA Men's World Cup,Silver Boot,1,Pelï,P-102,Brazil,T-9,BRA
+1958,1958 FIFA Men's World Cup,Silver Boot,1,Helmut Rahn,P-59,West Germany,T-85,DEU
+1958,1958 FIFA Men's World Cup,Best Young Player,0,Pelï,P-102,Brazil,T-9,BRA
+1962,1962 FIFA Men's World Cup,Golden Boot,1,Flï¿½ï¿½ï¿½ï¿½,P-38,Hungary,T-34,HUN
+1962,1962 FIFA Men's World Cup,Golden Boot,1,Garrincha,P-41,Brazil,T-9,BRA
+1962,1962 FIFA Men's World Cup,Golden Boot,1,Valentin Ivanov,P-121,Soviet Union,T-71,SUN
+1962,1962 FIFA Men's World Cup,Golden Boot,1,Draï¿½ï¿½ï¿½ï¿½,P-22,Yugoslavia,T-86,YUG
+1962,1962 FIFA Men's World Cup,Golden Boot,1,Leonel Sï¿½ï¿½,P-76,Chile,T-13,CHL
+1962,1962 FIFA Men's World Cup,Golden Boot,1,Vavï,P-123,Brazil,T-9,BRA
+1962,1962 FIFA Men's World Cup,Best Young Player,0,Flï¿½ï¿½ï¿½ï¿½,P-38,Hungary,T-34,HUN
+1966,1966 FIFA Men's World Cup,Golden Boot,0,Eusï¿½ï,P-33,Portugal,T-57,PRT
+1966,1966 FIFA Men's World Cup,Silver Boot,0,Helmut Haller,P-58,West Germany,T-85,DEU
+1966,1966 FIFA Men's World Cup,Bronze Boot,1,Franz Beckenbauer,P-39,West Germany,T-85,DEU
+1966,1966 FIFA Men's World Cup,Bronze Boot,1,Ferenc Bene,P-37,Hungary,T-34,HUN
+1966,1966 FIFA Men's World Cup,Bronze Boot,1,Geoff Hurst,P-43,England,T-27,ENG
+1966,1966 FIFA Men's World Cup,Bronze Boot,1,Valeriy Porkujan,P-122,Soviet Union,T-71,SUN
+1966,1966 FIFA Men's World Cup,Best Young Player,0,Franz Beckenbauer,P-39,West Germany,T-85,DEU
+1970,1970 FIFA Men's World Cup,Golden Boot,0,Gerd Mï¿½ï¿,P-45,West Germany,T-85,DEU
+1970,1970 FIFA Men's World Cup,Silver Boot,0,Jairzinho,P-65,Brazil,T-9,BRA
+1970,1970 FIFA Men's World Cup,Bronze Boot,0,Teï¿½ï¿½ï¿½ï¿½ï¿,P-116,Peru,T-55,PER
+1970,1970 FIFA Men's World Cup,Best Young Player,0,Teï¿½ï¿½ï¿½ï¿½ï¿,P-116,Peru,T-55,PER
+1974,1974 FIFA Men's World Cup,Golden Boot,0,Grzegorz Lato,P-49,Poland,T-56,POL
+1974,1974 FIFA Men's World Cup,Silver Boot,1,Johan Neeskens,P-67,Netherlands,T-47,NLD
+1974,1974 FIFA Men's World Cup,Silver Boot,1,Andrzej Szarmach,P-5,Poland,T-56,POL
+1974,1974 FIFA Men's World Cup,Best Young Player,0,Wï¿½ï¿½ï¿½ï¿½ï¿,P-125,Poland,T-56,POL
+1978,1978 FIFA Men's World Cup,Golden Ball,0,Mario Kempes,P-87,Argentina,T-3,ARG
+1978,1978 FIFA Men's World Cup,Silver Ball,0,Paolo Rossi,P-99,Italy,T-40,ITA
+1978,1978 FIFA Men's World Cup,Bronze Ball,0,Dirceu,P-21,Brazil,T-9,BRA
+1978,1978 FIFA Men's World Cup,Golden Boot,0,Mario Kempes,P-87,Argentina,T-3,ARG
+1978,1978 FIFA Men's World Cup,Silver Boot,0,Teï¿½ï¿½ï¿½ï¿½ï¿,P-116,Peru,T-55,PER
+1978,1978 FIFA Men's World Cup,Bronze Boot,0,Rob Rensenbrink,P-105,Netherlands,T-47,NLD
+1978,1978 FIFA Men's World Cup,Best Young Player,0,Antonio Cabrini,P-8,Italy,T-40,ITA
+1982,1982 FIFA Men's World Cup,Golden Ball,0,Paolo Rossi,P-99,Italy,T-40,ITA
+1982,1982 FIFA Men's World Cup,Silver Ball,0,Falcï¿,P-36,Brazil,T-9,BRA
+1982,1982 FIFA Men's World Cup,Bronze Ball,0,Karl-Heinz Rummenigge,P-71,West Germany,T-85,DEU
+1982,1982 FIFA Men's World Cup,Golden Boot,0,Paolo Rossi,P-99,Italy,T-40,ITA
+1982,1982 FIFA Men's World Cup,Silver Boot,0,Karl-Heinz Rummenigge,P-71,West Germany,T-85,DEU
+1982,1982 FIFA Men's World Cup,Bronze Boot,0,Zico,P-127,Brazil,T-9,BRA
+1982,1982 FIFA Men's World Cup,Best Young Player,0,Manuel Amoros,P-83,France,T-28,FRA
+1986,1986 FIFA Men's World Cup,Golden Ball,0,Diego Maradona,P-20,Argentina,T-3,ARG
+1986,1986 FIFA Men's World Cup,Silver Ball,0,Harald Schumacher,P-55,West Germany,T-85,DEU
+1986,1986 FIFA Men's World Cup,Bronze Ball,0,Preben Elkjï¿,P-103,Denmark,T-21,DNK
+1986,1986 FIFA Men's World Cup,Golden Boot,0,Gary Lineker,P-42,England,T-27,ENG
+1986,1986 FIFA Men's World Cup,Silver Boot,1,Emilio Butragueï¿,P-27,Spain,T-72,ESP
+1986,1986 FIFA Men's World Cup,Silver Boot,1,Careca,P-13,Brazil,T-9,BRA
+1986,1986 FIFA Men's World Cup,Silver Boot,1,Diego Maradona,P-20,Argentina,T-3,ARG
+1986,1986 FIFA Men's World Cup,Best Young Player,0,Enzo Scifo,P-29,Belgium,T-6,BEL
+1990,1990 FIFA Men's World Cup,Golden Ball,0,Salvatore Schillaci,P-112,Italy,T-40,ITA
+1990,1990 FIFA Men's World Cup,Silver Ball,0,Lothar Matthï¿½,P-80,West Germany,T-85,DEU
+1990,1990 FIFA Men's World Cup,Bronze Ball,0,Diego Maradona,P-20,Argentina,T-3,ARG
+1990,1990 FIFA Men's World Cup,Golden Boot,0,Salvatore Schillaci,P-112,Italy,T-40,ITA
+1990,1990 FIFA Men's World Cup,Silver Boot,0,Tomï¿½ï¿½ï¿½ï¿,P-120,Czechoslovakia,T-20,CSK
+1990,1990 FIFA Men's World Cup,Bronze Boot,1,Gary Lineker,P-42,England,T-27,ENG
+1990,1990 FIFA Men's World Cup,Bronze Boot,1,Roger Milla,P-108,Cameroon,T-11,CMR
+1990,1990 FIFA Men's World Cup,Best Young Player,0,Robert Prosineï¿½,P-106,Yugoslavia,T-86,YUG
+1994,1994 FIFA Men's World Cup,Golden Ball,0,Romï¿½ï,P-109,Brazil,T-9,BRA
+1994,1994 FIFA Men's World Cup,Silver Ball,0,Roberto Baggio,P-107,Italy,T-40,ITA
+1994,1994 FIFA Men's World Cup,Bronze Ball,0,Hristo Stoichkov,P-62,Bulgaria,T-10,BGR
+1994,1994 FIFA Men's World Cup,Golden Boot,1,Oleg Salenko,P-95,Russia,T-61,RUS
+1994,1994 FIFA Men's World Cup,Golden Boot,1,Hristo Stoichkov,P-62,Bulgaria,T-10,BGR
+1994,1994 FIFA Men's World Cup,Bronze Boot,1,Kennet Andersson,P-72,Sweden,T-73,SWE
+1994,1994 FIFA Men's World Cup,Bronze Boot,1,Romï¿½ï,P-109,Brazil,T-9,BRA
+1994,1994 FIFA Men's World Cup,Golden Glove,0,Michel Preudï¿½ï¿½,P-91,Belgium,T-6,BEL
+1994,1994 FIFA Men's World Cup,Best Young Player,0,Marc Overmars,P-85,Netherlands,T-47,NLD
+1998,1998 FIFA Men's World Cup,Golden Ball,0,Ronaldo,P-111,Brazil,T-9,BRA
+1998,1998 FIFA Men's World Cup,Silver Ball,0,Davor ï¿½ï¿,P-18,Croatia,T-17,HRV
+1998,1998 FIFA Men's World Cup,Bronze Ball,0,Lilian Thuram,P-78,France,T-28,FRA
+1998,1998 FIFA Men's World Cup,Golden Boot,0,Davor ï¿½ï¿,P-18,Croatia,T-17,HRV
+1998,1998 FIFA Men's World Cup,Silver Boot,1,Gabriel Batistuta,P-40,Argentina,T-3,ARG
+1998,1998 FIFA Men's World Cup,Silver Boot,1,Christian Vieri,P-16,Italy,T-40,ITA
+1998,1998 FIFA Men's World Cup,Golden Glove,0,Fabien Barthez,P-34,France,T-28,FRA
+1998,1998 FIFA Men's World Cup,Best Young Player,0,Michael Owen,P-89,England,T-27,ENG
+2002,2002 FIFA Men's World Cup,Golden Ball,0,Oliver Kahn,P-96,Germany,T-29,DEU
+2002,2002 FIFA Men's World Cup,Silver Ball,0,Ronaldo,P-111,Brazil,T-9,BRA
+2002,2002 FIFA Men's World Cup,Bronze Ball,0,Myung-bo Hong,P-129,South Korea,T-70,KOR
+2002,2002 FIFA Men's World Cup,Golden Boot,0,Ronaldo,P-111,Brazil,T-9,BRA
+2002,2002 FIFA Men's World Cup,Silver Boot,1,Miroslav Klose,P-92,Germany,T-29,DEU
+2002,2002 FIFA Men's World Cup,Silver Boot,1,Rivaldo,P-104,Brazil,T-9,BRA
+2002,2002 FIFA Men's World Cup,Golden Glove,0,Oliver Kahn,P-96,Germany,T-29,DEU
+2002,2002 FIFA Men's World Cup,Best Young Player,0,Landon Donovan,P-74,United States,T-81,USA
+2006,2006 FIFA Men's World Cup,Golden Ball,0,Zinedine Zidane,P-128,France,T-28,FRA
+2006,2006 FIFA Men's World Cup,Silver Ball,0,Fabio Cannavaro,P-35,Italy,T-40,ITA
+2006,2006 FIFA Men's World Cup,Bronze Ball,0,Andrea Pirlo,P-3,Italy,T-40,ITA
+2006,2006 FIFA Men's World Cup,Golden Boot,0,Miroslav Klose,P-92,Germany,T-29,DEU
+2006,2006 FIFA Men's World Cup,Silver Boot,0,Hernï¿½ï¿½ï¿½,P-60,Argentina,T-3,ARG
+2006,2006 FIFA Men's World Cup,Bronze Boot,0,Ronaldo,P-111,Brazil,T-9,BRA
+2006,2006 FIFA Men's World Cup,Golden Glove,0,Gianluigi Buffon,P-46,Italy,T-40,ITA
+2006,2006 FIFA Men's World Cup,Best Young Player,0,Lukas Podolski,P-82,Germany,T-29,DEU
+2010,2010 FIFA Men's World Cup,Golden Ball,0,Diego Forlï¿,P-19,Uruguay,T-82,URY
+2010,2010 FIFA Men's World Cup,Silver Ball,0,Wesley Sneijder,P-124,Netherlands,T-47,NLD
+2010,2010 FIFA Men's World Cup,Bronze Ball,0,David Villa,P-17,Spain,T-72,ESP
+2010,2010 FIFA Men's World Cup,Golden Boot,0,Thomas Mï¿½ï¿,P-119,Germany,T-29,DEU
+2010,2010 FIFA Men's World Cup,Silver Boot,0,David Villa,P-17,Spain,T-72,ESP
+2010,2010 FIFA Men's World Cup,Bronze Boot,0,Wesley Sneijder,P-124,Netherlands,T-47,NLD
+2010,2010 FIFA Men's World Cup,Golden Glove,0,Iker Casillas,P-64,Spain,T-72,ESP
+2010,2010 FIFA Men's World Cup,Best Young Player,0,Thomas Mï¿½ï¿,P-119,Germany,T-29,DEU
+2014,2014 FIFA Men's World Cup,Golden Ball,0,Lionel Messi,P-79,Argentina,T-3,ARG
+2014,2014 FIFA Men's World Cup,Silver Ball,0,Thomas Mï¿½ï¿,P-119,Germany,T-29,DEU
+2014,2014 FIFA Men's World Cup,Bronze Ball,0,Arjen Robben,P-9,Netherlands,T-47,NLD
+2014,2014 FIFA Men's World Cup,Golden Boot,0,James Rodrï¿½ï¿,P-66,Colombia,T-15,COL
+2014,2014 FIFA Men's World Cup,Silver Boot,0,Thomas Mï¿½ï¿,P-119,Germany,T-29,DEU
+2014,2014 FIFA Men's World Cup,Bronze Boot,0,Neymar,P-93,Brazil,T-9,BRA
+2014,2014 FIFA Men's World Cup,Golden Glove,0,Manuel Neuer,P-84,Germany,T-29,DEU
+2014,2014 FIFA Men's World Cup,Best Young Player,0,Paul Pogba,P-100,France,T-28,FRA
+2018,2018 FIFA Men's World Cup,Golden Ball,0,Luka Modriï,P-81,Croatia,T-17,HRV
+2018,2018 FIFA Men's World Cup,Silver Ball,0,Eden Hazard,P-24,Belgium,T-6,BEL
+2018,2018 FIFA Men's World Cup,Bronze Ball,0,Antoine Griezmann,P-7,France,T-28,FRA
+2018,2018 FIFA Men's World Cup,Golden Boot,0,Harry Kane,P-57,England,T-27,ENG
+2018,2018 FIFA Men's World Cup,Silver Boot,0,Antoine Griezmann,P-7,France,T-28,FRA
+2018,2018 FIFA Men's World Cup,Bronze Boot,0,Romelu Lukaku,P-110,Belgium,T-6,BEL
+2018,2018 FIFA Men's World Cup,Golden Glove,0,Thibaut Courtois,P-118,Belgium,T-6,BEL
+2018,2018 FIFA Men's World Cup,Best Young Player,0,Kylian Mbappï,P-73,France,T-28,FRA
+2022,2022 FIFA Men's World Cup,Golden Ball,0,Lionel Messi,P-79,Argentina,T-3,ARG
+2022,2022 FIFA Men's World Cup,Silver Ball,0,Kylian Mbappï,P-73,France,T-28,FRA
+2022,2022 FIFA Men's World Cup,Bronze Ball,0,Luka Modriï,P-81,Croatia,T-17,HRV
+2022,2022 FIFA Men's World Cup,Golden Boot,0,Kylian Mbappï,P-73,France,T-28,FRA
+2022,2022 FIFA Men's World Cup,Silver Boot,0,Lionel Messi,P-79,Argentina,T-3,ARG
+2022,2022 FIFA Men's World Cup,Bronze Boot,0,Olivier Giroud,P-97,France,T-28,FRA
+2022,2022 FIFA Men's World Cup,Golden Glove,0,Emiliano Martï¿½ï,P-26,Argentina,T-3,ARG
+2022,2022 FIFA Men's World Cup,Best Young Player,0,Enzo Fernï¿½ï¿,P-28,Argentina,T-3,ARG

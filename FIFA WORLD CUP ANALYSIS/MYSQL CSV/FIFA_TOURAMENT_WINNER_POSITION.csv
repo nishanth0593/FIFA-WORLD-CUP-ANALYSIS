@@ -1,0 +1,89 @@
+TOURNAMENT_ID,YEAR,TOURNAMENT_NAME,POSITION,TEAM_NAME,TEAM_ID,TEAM_C0DE,MANAGER_NAME
+WC-1930,1930,1930 FIFA Men's World Cup,1,Uruguay,T-82,URY,Alberto Suppici
+WC-1930,1930,1930 FIFA Men's World Cup,2,Argentina,T-3,ARG,Juan José Tramutol
+WC-1930,1930,1930 FIFA Men's World Cup,3,United States,T-81,USA,Robert Millar
+WC-1930,1930,1930 FIFA Men's World Cup,4,Yugoslavia,T-86,YUG,Boško Simonovi
+WC-1934,1934,1934 FIFA Men's World Cup,1,Italy,T-40,ITA,Vittorio Pozzo
+WC-1934,1934,1934 FIFA Men's World Cup,2,Czechoslovakia,T-20,CSK,Karel Petr�
+WC-1934,1934,1934 FIFA Men's World Cup,3,Germany,T-29,DEU,Otto Nerz
+WC-1934,1934,1934 FIFA Men's World Cup,4,Austria,T-5,AUT,Hugo Meisl
+WC-1938,1938,1938 FIFA Men's World Cup,1,Italy,T-40,ITA,Vittorio Pozzo
+WC-1938,1938,1938 FIFA Men's World Cup,2,Hungary,T-34,HUN,Alfréd Schaffe
+WC-1938,1938,1938 FIFA Men's World Cup,3,Brazil,T-9,BRA,Adhemar Pimenta
+WC-1938,1938,1938 FIFA Men's World Cup,4,Sweden,T-73,SWE,József Nag
+WC-1950,1950,1950 FIFA Men's World Cup,1,Uruguay,T-82,URY,Juan Lópe
+WC-1950,1950,1950 FIFA Men's World Cup,2,Brazil,T-9,BRA,Flávio Cost
+WC-1950,1950,1950 FIFA Men's World Cup,3,Sweden,T-73,SWE,George Raynor
+WC-1950,1950,1950 FIFA Men's World Cup,4,Spain,T-72,ESP,Guillermo Eizaguirre
+WC-1954,1954,1954 FIFA Men's World Cup,1,West Germany,T-85,DEU,Sepp Herberger
+WC-1954,1954,1954 FIFA Men's World Cup,2,Hungary,T-34,HUN,Gusztáv Sebe
+WC-1954,1954,1954 FIFA Men's World Cup,3,Austria,T-5,AUT,Walter Nausch
+WC-1954,1954,1954 FIFA Men's World Cup,4,Uruguay,T-82,URY,Juan Lópe
+WC-1958,1958,1958 FIFA Men's World Cup,1,Brazil,T-9,BRA,Vicente Feola
+WC-1958,1958,1958 FIFA Men's World Cup,2,Sweden,T-73,SWE,George Raynor
+WC-1958,1958,1958 FIFA Men's World Cup,3,France,T-28,FRA,Albert Batteux
+WC-1958,1958,1958 FIFA Men's World Cup,4,West Germany,T-85,DEU,Sepp Herberger
+WC-1962,1962,1962 FIFA Men's World Cup,1,Brazil,T-9,BRA,Aymoré Moreir
+WC-1962,1962,1962 FIFA Men's World Cup,2,Czechoslovakia,T-20,CSK,Rudolf Vytlači
+WC-1962,1962,1962 FIFA Men's World Cup,3,Chile,T-13,CHL,Fernando Riera
+WC-1962,1962,1962 FIFA Men's World Cup,4,Yugoslavia,T-86,YUG,Prvoslav Mihajlovi�
+WC-1966,1966,1966 FIFA Men's World Cup,1,England,T-27,ENG,Alf Ramsey
+WC-1966,1966,1966 FIFA Men's World Cup,2,West Germany,T-85,DEU,Helmut Schö
+WC-1966,1966,1966 FIFA Men's World Cup,3,Portugal,T-57,PRT,Otto Glóri
+WC-1966,1966,1966 FIFA Men's World Cup,4,Soviet Union,T-71,SUN,Nikolai Morozov
+WC-1970,1970,1970 FIFA Men's World Cup,1,Brazil,T-9,BRA,Mário Zagall
+WC-1970,1970,1970 FIFA Men's World Cup,2,Italy,T-40,ITA,Ferruccio Valcareggi
+WC-1970,1970,1970 FIFA Men's World Cup,3,West Germany,T-85,DEU,Helmut Schö
+WC-1970,1970,1970 FIFA Men's World Cup,4,Uruguay,T-82,URY,Juan Hohberg
+WC-1974,1974,1974 FIFA Men's World Cup,1,West Germany,T-85,DEU,Helmut Schö
+WC-1974,1974,1974 FIFA Men's World Cup,2,Netherlands,T-47,NLD,Rinus Michels
+WC-1974,1974,1974 FIFA Men's World Cup,3,Poland,T-56,POL,Kazimierz Górsk
+WC-1974,1974,1974 FIFA Men's World Cup,4,Brazil,T-9,BRA,Mário Zagall
+WC-1978,1978,1978 FIFA Men's World Cup,1,Argentina,T-3,ARG,César Luis Menott
+WC-1978,1978,1978 FIFA Men's World Cup,2,Netherlands,T-47,NLD,Ernst Happel
+WC-1978,1978,1978 FIFA Men's World Cup,3,Brazil,T-9,BRA,Cláudio Coutinh
+WC-1978,1978,1978 FIFA Men's World Cup,4,Italy,T-40,ITA,Enzo Bearzot
+WC-1982,1982,1982 FIFA Men's World Cup,1,Italy,T-40,ITA,Enzo Bearzot
+WC-1982,1982,1982 FIFA Men's World Cup,2,West Germany,T-85,DEU,Jupp Derwall
+WC-1982,1982,1982 FIFA Men's World Cup,3,Poland,T-56,POL,Antoni Piechniczek
+WC-1982,1982,1982 FIFA Men's World Cup,4,France,T-28,FRA,Michel Hidalgo
+WC-1986,1986,1986 FIFA Men's World Cup,1,Argentina,T-3,ARG,Carlos Bilardo
+WC-1986,1986,1986 FIFA Men's World Cup,2,West Germany,T-85,DEU,Franz Beckenbauer
+WC-1986,1986,1986 FIFA Men's World Cup,3,France,T-28,FRA,Henri Michel
+WC-1986,1986,1986 FIFA Men's World Cup,4,Belgium,T-6,BEL,Guy Thys
+WC-1990,1990,1990 FIFA Men's World Cup,1,West Germany,T-85,DEU,Franz Beckenbauer
+WC-1990,1990,1990 FIFA Men's World Cup,2,Argentina,T-3,ARG,Carlos Bilardo
+WC-1990,1990,1990 FIFA Men's World Cup,3,Italy,T-40,ITA,Azeglio Vicini
+WC-1990,1990,1990 FIFA Men's World Cup,4,England,T-27,ENG,Bobby Robson
+WC-1994,1994,1994 FIFA Men's World Cup,1,Brazil,T-9,BRA,Carlos Alberto Parreira
+WC-1994,1994,1994 FIFA Men's World Cup,2,Italy,T-40,ITA,Arrigo Sacchi
+WC-1994,1994,1994 FIFA Men's World Cup,3,Sweden,T-73,SWE,Tommy Svensson
+WC-1994,1994,1994 FIFA Men's World Cup,4,Bulgaria,T-10,BGR,Dimitar Penev
+WC-1998,1998,1998 FIFA Men's World Cup,1,France,T-28,FRA,Aimé Jacque
+WC-1998,1998,1998 FIFA Men's World Cup,2,Brazil,T-9,BRA,Mário Zagall
+WC-1998,1998,1998 FIFA Men's World Cup,3,Croatia,T-17,HRV,Miroslav Blaževi
+WC-1998,1998,1998 FIFA Men's World Cup,4,Netherlands,T-47,NLD,Guus Hiddink
+WC-2002,2002,2002 FIFA Men's World Cup,1,Brazil,T-9,BRA,Luiz Felipe Scolari
+WC-2002,2002,2002 FIFA Men's World Cup,2,Germany,T-29,DEU,Rudi Völle
+WC-2002,2002,2002 FIFA Men's World Cup,3,Turkey,T-78,TUR,^enol G�ne_
+WC-2002,2002,2002 FIFA Men's World Cup,4,South Korea,T-70,KOR,Guus Hiddink
+WC-2006,2006,2006 FIFA Men's World Cup,1,Italy,T-40,ITA,Marcello Lippi
+WC-2006,2006,2006 FIFA Men's World Cup,2,France,T-28,FRA,Raymond Domenech
+WC-2006,2006,2006 FIFA Men's World Cup,3,Germany,T-29,DEU,Jürgen Klinsman
+WC-2006,2006,2006 FIFA Men's World Cup,4,Portugal,T-57,PRT,Luiz Felipe Scolari
+WC-2010,2010,2010 FIFA Men's World Cup,1,Spain,T-72,ESP,Vicente del Bosque
+WC-2010,2010,2010 FIFA Men's World Cup,2,Netherlands,T-47,NLD,Bert van Marwijk
+WC-2010,2010,2010 FIFA Men's World Cup,3,Germany,T-29,DEU,Joachim Lö
+WC-2010,2010,2010 FIFA Men's World Cup,4,Uruguay,T-82,URY,�scar Tab�rez
+WC-2014,2014,2014 FIFA Men's World Cup,1,Germany,T-29,DEU,Joachim Lö
+WC-2014,2014,2014 FIFA Men's World Cup,2,Argentina,T-3,ARG,Alejandro Sabella
+WC-2014,2014,2014 FIFA Men's World Cup,3,Netherlands,T-47,NLD,Louis van Gaal
+WC-2014,2014,2014 FIFA Men's World Cup,4,Brazil,T-9,BRA,Luiz Felipe Scolari
+WC-2018,2018,2018 FIFA Men's World Cup,1,France,T-28,FRA,Didier Deschamps
+WC-2018,2018,2018 FIFA Men's World Cup,2,Croatia,T-17,HRV,Zlatko Dali�
+WC-2018,2018,2018 FIFA Men's World Cup,3,Belgium,T-6,BEL,Roberto Martíne
+WC-2018,2018,2018 FIFA Men's World Cup,4,England,T-27,ENG,Gareth Southgate
+WC-2022,2022,2022 FIFA Men's World Cup,1,Argentina,T-3,ARG,Lionel Scaloni
+WC-2022,2022,2022 FIFA Men's World Cup,2,France,T-28,FRA,Didier Deschamps
+WC-2022,2022,2022 FIFA Men's World Cup,3,Croatia,T-17,HRV,Zlatko Dali�
+WC-2022,2022,2022 FIFA Men's World Cup,4,Morocco,T-46,MAR,Walid Regragui

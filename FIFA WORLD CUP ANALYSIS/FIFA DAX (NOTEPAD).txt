@@ -1,0 +1,596 @@
+FIFA WORLD CUP ANALYSIS DAX :
+
+1.SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+2.SEASON_WINNER = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR WinnerTeam =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 1))
+        
+RETURN
+WinnerTeam
+
+3.SEASON_WINNER_LOGO = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR WinnerTeam =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 1))
+        
+RETURN
+LOOKUPVALUE(TEAM[IMAGE_URL],
+            TEAM[TEAM_NAME],
+            WinnerTeam)
+
+4.SEASON_RUNNERUP = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR RUNNERUP_Team =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 2))
+        
+RETURN
+RUNNERUP_Team
+
+5.SEASON_RUNNERUP_LOGO = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR RUNNERUP_Team =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 2))
+        
+RETURN
+LOOKUPVALUE(TEAM[IMAGE_URL],
+            TEAM[TEAM_NAME],
+            RUNNERUP_Team)
+
+6.WINNER_MANAGER = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR MANAGER_NAME = CALCULATE(
+        SELECTEDVALUE(WINNER[MANAGER_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 1))
+        
+RETURN
+MANAGER_NAME
+
+7.RUNNERUP_MANAGER = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR MANAGER_NAME = CALCULATE(
+        SELECTEDVALUE(WINNER[MANAGER_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 2))
+        
+RETURN
+MANAGER_NAME
+
+8.SEASON_3rd_PLACE = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR Third_PLACE_Team =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 3))
+        
+RETURN
+Third_PLACE_Team
+
+
+9.3rd_PLACE_LOGO = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR Third_PLACE_Team =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 3))
+        
+RETURN
+
+LOOKUPVALUE(TEAM[IMAGE_URL],
+            TEAM[TEAM_NAME],
+            Third_PLACE_Team)
+
+10.3rd_MANAGER = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR MANAGER_NAME = CALCULATE(
+        SELECTEDVALUE(WINNER[MANAGER_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 3))
+        
+RETURN
+MANAGER_NAME
+
+
+11.SEASON_4th_PLACE = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR FORTH_PLACE_Team =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 4))
+        
+RETURN
+FORTH_PLACE_Team
+
+
+12.4th_PLACE_LOGO = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR FORTH_PLACE_Team =
+    CALCULATE(
+        SELECTEDVALUE(WINNER[TEAM_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 4))
+        
+RETURN
+
+LOOKUPVALUE(TEAM[IMAGE_URL],
+            TEAM[TEAM_NAME],
+            FORTH_PLACE_Team)
+
+
+13.4th_MANAGER = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR MANAGER_NAME = CALCULATE(
+        SELECTEDVALUE(WINNER[MANAGER_NAME]),
+        FILTER(WINNER, WINNER[YEAR] = SelectedSeason && WINNER[POSITION] = 4))
+        
+RETURN
+MANAGER_NAME
+
+
+14.MAN_OF_THE_MATCH = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+VAR FinalMOTM =
+    CALCULATE(
+        SELECTEDVALUE(MOTM[PLAYER NAME ]),
+        FILTER(
+            MOTM,
+            MOTM[Year] = SelectedSeason &&
+            MOTM[MATCH] = "FINAL'S"
+        )
+    )
+RETURN
+IF(
+    ISBLANK(FinalMOTM),
+    "Not Introduced In This Season",
+    FinalMOTM
+)
+
+
+15.MAN_OF_THE_MATCH_2 = 
+
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+
+VAR FinalMOTM =
+    CALCULATE(SELECTEDVALUE(MOTM[PLAYER NAME ]),
+                    FILTER(
+                    MOTM,
+                    MOTM[Year] = SelectedSeason &&
+                    MOTM[MATCH] = "THIRD PLACE MATCH"))
+
+RETURN
+IF(
+    ISBLANK(FinalMOTM),
+    "Not Introduced In This Season",
+    FinalMOTM
+)
+
+
+16.MOTM_LOGO = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+VAR FinalMOTM =
+    CALCULATE(
+        SELECTEDVALUE(MOTM[PLAYER NAME ]),
+        FILTER(
+            MOTM,
+            MOTM[Year] = SelectedSeason &&
+            MOTM[MATCH] = "FINAL'S"
+        )
+    )
+RETURN
+LOOKUPVALUE(Player_ID[PLAYERS_IMAGE_URL],
+Player_ID[PLAYER_NAME],
+IF(
+    ISBLANK(FinalMOTM),
+    "Not Introduced In This Season",
+    FinalMOTM
+))
+
+
+15.MOTM2_LOGO = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+VAR FinalMOTM =
+    CALCULATE(
+        SELECTEDVALUE(MOTM[PLAYER NAME ]),
+        FILTER(
+            MOTM,
+            MOTM[Year] = SelectedSeason &&
+            MOTM[MATCH] = "THIRD PLACE MATCH"
+        )
+    )
+RETURN
+LOOKUPVALUE(Player_ID[PLAYERS_IMAGE_URL],
+Player_ID[PLAYER_NAME],
+IF(
+    ISBLANK(FinalMOTM),
+    "Not Introduced In This Season",
+    FinalMOTM
+))
+
+
+16.MOTM_TMN = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+VAR FinalMOTM =
+    CALCULATE(
+        SELECTEDVALUE(MOTM[PLAYER NAME ]),
+        FILTER(
+            MOTM,
+            MOTM[Year] = SelectedSeason &&
+            MOTM[MATCH] = "FINAL'S"
+        )
+    )
+
+VAR TEAM_NAME = CALCULATE(SELECTEDVALUE(MOTM[Team]),
+MOTM[PLAYER NAME ] = FinalMOTM)
+
+RETURN
+IF(
+    ISBLANK(TEAM_NAME),
+    "Not Introduced In This Season",
+    TEAM_NAME
+)
+
+
+17.MOTM2_TMN = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+VAR FinalMOTM =
+    CALCULATE(
+        SELECTEDVALUE(MOTM[PLAYER NAME ]),
+        FILTER(
+            MOTM,
+            MOTM[Year] = SelectedSeason &&
+            MOTM[MATCH] = "THIRD PLACE MATCH"
+        )
+    )
+
+VAR TEAM_NAME = CALCULATE(SELECTEDVALUE(MOTM[Team]),
+MOTM[PLAYER NAME ] = FinalMOTM)
+
+RETURN
+IF(
+    ISBLANK(TEAM_NAME),
+    "Not Introduced In This Season",
+    TEAM_NAME
+)
+
+
+18.AWARD_WINNER_PLAYERS = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_AWARD = SELECTEDVALUE(AWARDS[AWARD_NAME])
+
+VAR PLAYERS = CALCULATE(SELECTEDVALUE(AWARDS[PLAYER_NAME]),        
+                FILTER(AWARDS,AWARDS[YEAR] = SELECTED_SEASON),
+                FILTER(AWARDS,AWARDS[AWARD_NAME] = SELECTED_AWARD))
+
+RETURN PLAYERS
+
+
+19.FAIRPLAY = 
+VAR SS = SELECTEDVALUE(host_countries[YEAR])
+VAR MinCards =
+    CALCULATE(
+        MINX(FILTER(CARDS, CARDS[YEAR] = SS), CARDS[TOTAL CARD])
+    )
+VAR TeamWithMinCards =
+    CALCULATE(
+        MAXX(
+            FILTER(CARDS, CARDS[YEAR] = SS && CARDS[TOTAL CARD] = MinCards),
+            CARDS[TEAM NAME]
+        )
+    )
+RETURN
+IF(
+    ISBLANK(TeamWithMinCards),
+    "N/I", 
+    TeamWithMinCards
+)
+
+
+
+
+20.pts_logo = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[TEAM NAME]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+
+LOOKUPVALUE(TEAM[IMAGE_URL],TEAM[TEAM_NAME],
+TEAM)
+
+
+21.W = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[WIN]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+22.L = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[LOSS]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+23.D = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[DRAW]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+
+24.G_F = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[GF]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+25.G_A = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[GA]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+26.G_D = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[GD]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+27.PTS = 
+
+VAR SELECTED_SEASON = SELECTEDVALUE(host_countries[YEAR])
+
+VAR SELECTED_GROUP = SELECTEDVALUE('POINTS TABLE'[GROUP],"SELECT GROUP")
+
+VAR TEAM = CALCULATE(
+                SELECTEDVALUE('POINTS TABLE'[POINTS]),
+                FILTER('POINTS TABLE','POINTS TABLE'[YEAR]=SELECTED_SEASON),
+                FILTER('POINTS TABLE','POINTS TABLE'[GROUP] = SELECTED_GROUP))
+RETURN 
+TEAM
+
+
+28.HATRICK_PLAYERS = 
+VAR SelectedSeason = SELECTEDVALUE(host_countries[YEAR])
+RETURN
+CONCATENATEX (
+    FILTER (
+        'HATRICK GOALS',
+        'HATRICK GOALS'[YEAR] = SelectedSeason &&
+        'HATRICK GOALS'[GOALS] >= 3
+    ),
+    'HATRICK GOALS'[PLAYERS],
+    ", "
+)
+
+
+29. ParticipatedCountries =
+VAR SelectedSeason = SELECTEDVALUE('POINTS TABLE'[YEAR])
+RETURN
+IF(
+    ISBLANK(SelectedSeason),
+    "NOT SELECTED",
+    COUNTROWS(
+        FILTER(
+            'POINTS TABLE',
+            'POINTS TABLE'[YEAR] = SelectedSeason
+        )
+    )
+)
+
+
+30. EDITIONS = COUNTROWS(ALL(host_countries[YEAR]))
+
+
+31. EDITIONS_No =
+VAR SS = SELECTEDVALUE('POINTS TABLE'[YEAR])
+RETURN
+IF(
+    ISBLANK(SS),
+    "NOT SELECTED",
+    CALCULATE(
+        SELECTEDVALUE(host_countries[EDITIONSYEAR]),
+        host_countries[YEAR] = SS
+    )
+)
+
+
+
+
+
+
+
+
+SUMMARY:
+
+📊 FIFA World Cup Analysis – Notes
+
+- **Dashboard Pages Created**
+  1. **Winners & Managers** – Season‑wise champions, runner‑ups, managers, and logos.
+  2. **Points Table** – Dynamic calculations for wins, losses, draws, goals, and points.
+  3. **Participated Countries Map** – Visual coverage of all nations with highlights.
+
+- **DAX Measures Implemented**
+  - SELECTEDVALUE, HASONEVALUE for dynamic titles.
+  - Calculations for **Goals, Points, Yellow Cards, Hat‑tricks, Fair Play, Awards**.
+  - Man of the Match and other player‑level insights.
+
+- **Key Features**
+  - Interactive visuals with KPIs.
+  - Clean storytelling using Power BI visuals.
+  - Professional layout across three pages.
+
+- **Tools Used**
+  - Power BI, DAX, SQL, Excel.
+
+------------------------------------------------------------------------------------------------------------------
+
+🏆 FIFA World Cup Analysis – DAX Notes
+
+🎯 Season & Team Insights
+- **SELECTED_SEASON** → Dynamic season selection.
+- **SEASON_WINNER / RUNNERUP / 3rd / 4th Place** → Retrieves team names based on position.
+- **LOGO Measures** → Uses `LOOKUPVALUE` to fetch team logos for winner, runner‑up, 3rd, and 4th place.
+- **MANAGER Measures** → Pulls manager names for each position.
+
+👤 Player Highlights
+- **MAN_OF_THE_MATCH (Final & 3rd Place)** → Displays MOTM player names, with fallback text if not introduced.
+- **MOTM_LOGO / MOTM2_LOGO** → Fetches player images.
+- **MOTM_TMN / MOTM2_TMN** → Retrieves MOTM team names.
+- **AWARD_WINNER_PLAYERS** → Dynamic award‑wise player selection.
+- **HATRICK_PLAYERS** → Lists players scoring 3+ goals in a season.
+
+⚖️ Fair Play & Discipline
+- **FAIRPLAY** → Identifies team with minimum cards in a season.
+
+📊 Points Table Metrics
+- **pts_logo** → Displays team logo in points table.
+- **W, L, D** → Wins, losses, draws.
+- **G_F, G_A, G_D** → Goals for, against, and difference.
+- **PTS** → Total points calculation.
+
+------------------------------------------------------------------------------------------------------------------
+
+
+📊 FIFA World Cup Analysis – Project Notes
+
+### 🔹 Dashboard Pages
+1. **Winners & Managers**
+   - Season‑wise champions, runner‑ups, 3rd & 4th place teams.
+   - Dynamic display of team logos and manager names.
+
+2. **Points Table**
+   - Interactive group‑wise stats: Wins, Losses, Draws, Goals For/Against, Goal Difference, Points.
+   - Team logos integrated for clarity.
+
+3. **Participated Countries Map**
+   - Visual representation of all nations that played.
+   - Clean geographic storytelling of tournament participation.
+
+---
+🔹 DAX Measures (28 created)
+- **Season Context**: `SELECTED\_SEASON` for dynamic year selection.
+- **Team Insights**: Winner, Runner‑up, 3rd & 4th place teams with logos and managers.
+- **Player Highlights**:
+  - Man of the Match (Final & 3rd Place) with player names, logos, and team names.
+  - Award winners by category.
+  - Hat‑trick players listed dynamically.
+- **Fair Play**: Identifies team with minimum cards in each season.
+- **Points Table Metrics**: Wins, Losses, Draws, Goals For/Against, Goal Difference, Points.
+
+---
+
+🔹 Technical Strengths
+- Strong use of **SELECTEDVALUE, CALCULATE, FILTER, LOOKUPVALUE, CONCATENATEX**.
+- Measures designed for **dynamic, interactive dashboards**.
+- Covers **teams, managers, players, awards, fair play, and performance metrics**.
+
+---
+
+🔹 Project Impact
+- Provides **season‑wise insights** into winners, managers, and player achievements.
+- Enables **quick analysis of team performance trends** across tournaments.
+- Delivers a **professional, multi‑page Power BI dashboard** with storytelling visuals.
+
+
+------------------------------------------------------------------------------------------------------------------
+
+🎤 Mentor Presentation – Talking Points
+
+**Opening**
+- “I’ve completed a Power BI project called *FIFA World Cup Analysis*. The aim was to build an interactive dashboard that gives season‑wise insights into winners, managers, players, and team performance.”
+
+**Dashboard Pages**
+- “The project has three main pages:
+  1. **Winners & Managers** – shows champions, runner‑ups, 3rd and 4th place teams, with logos and manager names.
+  2. **Points Table** – interactive stats for wins, losses, draws, goals, and points.
+  3. **Participated Countries Map** – highlights all nations that played in each season.”
+
+**Technical Work (DAX)**
+- “I created **28 custom DAX measures**. These include:
+  - Dynamic season selection.
+  - Winner, runner‑up, 3rd & 4th place teams with logos and managers.
+  - Man of the Match for finals and 3rd place matches, with player images and team names.
+  - Award winners, fair play team, and hat‑trick players.
+  - Complete points table metrics: Wins, Losses, Draws, Goals For/Against, Goal Difference, and Points.”
+
+**Impact**
+- “This project enables quick analysis of team performance and historical trends. It combines storytelling visuals with technical DAX to make the dashboard interactive and professional.”
+
+**Closing**
+- “Overall, this project demonstrates my ability to use Power BI and DAX to build a structured, insightful sports analytics dashboard.”
+
+------------------------------------------------------------------------------------------------------------------
+
